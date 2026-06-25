@@ -1,0 +1,2 @@
+# Turning-Tokopedia-Customer-Feedback-into-Business-Intelligence-with-Python
+An end-to-end voice-of-customer analytics project that turns unstructured Tokopedia customer reviews into business intelligence using Python. Covers Selenium web scraping, text preprocessing, rating-based sentiment classification, and keyword theme tagging to reveal the operational drivers behind customer trust and satisfaction.
