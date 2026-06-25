@@ -29,17 +29,16 @@ The headline picture is a **strong but operationally-driven reputation**: **98.1
 
 ## 🔑 Key Findings
 
-| Theme                    | Finding                                                                                                                            |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| **Overall sentiment**    | **924 (98.1%)** positive, **14 (1.5%)** negative, **4 (0.4%)** neutral — positivity overwhelmingly dominates the corpus           |
-| **Rating intensity**     | **901 (95.6%)** of reviews are 5-star; average **4.91 / 5** — satisfaction is *exceptional*, not merely *adequate*                |
-| **Top vocabulary**       | `sesuai` (191), `aman` (184), `bagus` (158), `cepat` (156) — **product trust** and **fulfillment trust** appear almost equally    |
-| **Theme split**          | **Product Quality (52.4%)** and **Shipping & Packaging (47.5%)** dominate — logistics is discussed *almost as often* as the product |
-| **Review concentration** | **Xiaomi 17T (162 reviews)** drives nearly 2× the next product (POCO X8 Pro Series, 87) — reputational exposure is concentrated     |
-| **Communication style**  | Median review is **7 words** (avg 9) — customers summarize satisfaction *concisely*                                                |
-| **Top bigrams**          | `pengiriman cepat` (87), `sesuai pesanan` (69), `berfungsi baik` (66) — complete customer statements about speed, accuracy, function |
-| **Where it breaks (1.5%)** | Negative reviews cluster around **packaging damage on flagships**, **courier/last-mile delays**, and **listing/service gaps**     |
-
+| Theme | Finding |
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **Overall sentiment** | Customer sentiment is highly positive, with **924 (98.1%)** positive reviews, **14 (1.5%)** negative reviews, and **4 (0.4%)** neutral reviews, indicating consistently high customer satisfaction. |
+| **Rating intensity** | **901 (95.6%)** of all reviews received a **5-star rating**, resulting in an average rating of **4.91/5**. This reflects an exceptionally strong overall customer experience. |
+| **Top vocabulary** | The most frequently used terms are `sesuai` (191), `aman` (184), `bagus` (158), and `cepat` (156). These keywords indicate that customers primarily value product quality and reliable order fulfillment. |
+| **Theme split** | Customer feedback is largely divided between **Product Quality (52.4%)** and **Shipping & Packaging (47.5%)**, demonstrating that satisfaction is driven by both product performance and delivery quality. |
+| **Review concentration** | The **Xiaomi 17T (162 reviews)** generated the highest review volume, followed by the **POCO X8 Pro Series (87)**. This indicates that customer perception is strongly influenced by a limited number of flagship products. |
+| **Communication style** | Reviews are generally concise, with a median length of **7 words** and an average of **9 words**, suggesting that customers communicate their experiences clearly and directly. |
+| **Top bigrams** | The most common phrases include `pengiriman cepat` (87), `sesuai pesanan` (69), and `berfungsi baik` (66). These recurring expressions consistently emphasize fast delivery, accurate orders, and proper product functionality. |
+| **Where it breaks (1.5%)** | Negative reviews are primarily associated with packaging damage, shipping delays, and product listing or service issues. These findings suggest that dissatisfaction is concentrated in operational processes rather than product quality. |
 ---
 
 ## 🗂️ Table of Contents
@@ -53,7 +52,7 @@ The headline picture is a **strong but operationally-driven reputation**: **98.1
 - [Project Structure](#-project-structure)
 - [Tech Stack](#️-tech-stack)
 - [Reproduce This Analysis](#️-reproduce-this-analysis)
-- [Limitations & Future Work](#-limitations--future-work)
+- [Limitations & Future Work](#%EF%B8%8F-limitations--future-work)
 - [Read More](#-read-more)
 - [License](#-license)
 
@@ -143,19 +142,19 @@ The full 7-panel dashboard summarizes sentiment, ratings, vocabulary, themes, pr
 ![Tokopedia Sentiment Dashboard](assets/Tokopedia_Sentiment_dashboard.png)
 
 ### Sentiment & Rating
-Out of 942 reviews, **924 (98.1%)** are positive and **901 (95.6%)** are 5-star, yielding a **4.91** average. Dissatisfaction is not broadly distributed — it occurs in isolated situations.
+Customer sentiment is overwhelmingly positive. Of the **942 reviews**, **924 (98.1%)** are classified as positive, while **901 (95.6%)** received a **5-star rating**, resulting in an average rating of **4.91/5**. Negative feedback represents only a small proportion of reviews, indicating that customer dissatisfaction is limited to isolated cases rather than reflecting a systemic issue.
 
 ### What Customers Talk About
-The most frequent meaningful words split into two narratives. **Product trust** — `sesuai` (191), `bagus` (158), `baik` (149), `mantap` (98), `berfungsi` (90). **Fulfillment trust** — `aman` (184), `cepat` (156), `pengiriman` (132), `sampai` (110), `packing` (101). Logistics vocabulary appears *almost as often* as product vocabulary: customers evaluate not only *what* they receive but *how it arrives*.
+Review text is dominated by two key discussion themes. Product-related terms such as **`sesuai` (191)**, **`bagus` (158)**, **`baik` (149)**, **`mantap` (98)**, and **`berfungsi` (90)** emphasize product quality and reliability. Meanwhile, logistics-related terms including **`aman` (184)**, **`cepat` (156)**, **`pengiriman` (132)**, **`sampai` (110)**, and **`packing` (101)** highlight the importance of delivery speed and packaging quality. This suggests that customer satisfaction is influenced by both product performance and the fulfillment experience.
 
 ### Themes
-**Product Quality (494 reviews, 52.4%)** and **Shipping & Packaging (447, 47.5%)** sit close together — satisfaction is built on two complementary pillars rather than one.
+Topic classification shows that **Product Quality** accounts for **494 reviews (52.4%)**, while **Shipping & Packaging** contributes **447 reviews (47.5%)**. The relatively balanced distribution indicates that positive customer experiences are driven by both product quality and reliable order fulfillment.
 
 ### Product Concentration
-The **Xiaomi 17T (12GB+256GB)** records **162 reviews**, nearly double the **POCO X8 Pro Series (87)** and **POCO X7 Pro 5G (54)**. A small group of flagship products carries a disproportionate share of reputational exposure.
+The **Xiaomi 17T (12GB+256GB)** generated the highest review volume with **162 reviews**, followed by the **POCO X8 Pro Series (87)** and **POCO X7 Pro 5G (54)**. This concentration indicates that a limited number of flagship products account for a substantial share of customer engagement and brand perception.
 
 ### Recurring Phrases (Bigrams)
-`pengiriman cepat` (87), `sesuai pesanan` (69), `berfungsi baik` (66), `terima kasih` (59), `packing aman` (46), `masih segel` (35). Customers consistently describe products that arrive **quickly, safely, as advertised, and in working condition**.
+The most frequent bigrams include **`pengiriman cepat` (87)**, **`sesuai pesanan` (69)**, **`berfungsi baik` (66)**, **`terima kasih` (59)**, **`packing aman` (46)**, and **`masih segel` (35)**. Collectively, these phrases reinforce a consistent customer narrative that products arrive quickly, securely packaged, match expectations, and function as intended.
 
 ---
 
